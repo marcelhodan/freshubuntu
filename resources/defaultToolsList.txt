@@ -1,0 +1,5 @@
+git
+screen
+htop
+open-vm-tools
+ncdu

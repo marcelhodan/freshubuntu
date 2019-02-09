@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# use addition -h command with ll alias
+echo "add -h to 'll' alias"
+sed -i -e "s/alias ll='ls -alF'/alias ll='ls -alFh'/g" $HOME/.bashrc
+# add customized login information
+if [[ ! -e /etc/update-motd.d/01-serverid ]]; then
+    echo "add addition information to login screen"
+    cp -v $(dirname $0)/../resources/01-serverid /etc/update-motd.d/
+fi

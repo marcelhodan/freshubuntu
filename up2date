@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if [ "$EUID" -ne 0 ]; then
+    echo -e "\e[41mPlease use sudo or run as root...\e[0m"
+    exit
+fi
+
+apt-get update && \
+apt-get upgrade -y --force-yes && \
+apt-get autoclean -y && \
+apt-get autoremove -y
+
+exit 0
