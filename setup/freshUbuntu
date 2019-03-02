@@ -35,9 +35,9 @@ echo
 if [[ $DOGITCONFIG =~ ^[Yy]$ ]]; then
     read -p "Enter git user name: " GITUSERNAME
     read -p "Enter git email: " GITEMAIL
-    echo "Username='$GITUSERNAME'"
-    echo "Email='$GITEMAIL'"
-    read -p "Setup git committer? (y/n) " -n 1 CHECKGITCONFIG
+    echo ">Username='$GITUSERNAME'"
+    echo ">Email='$GITEMAIL'"
+    read -p "Set git committer like above? (y/n) " -n 1 CHECKGITCONFIG
         echo
         if [[ $CHECKGITCONFIG =~ ^[Yy]$ ]]; then
             git config --global user.email "$GITEMAIL"
