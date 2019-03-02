@@ -11,6 +11,10 @@ I use this clone command on new VMs to get started fast: <br> `git clone https:/
 Script Name | Function
 ----------- | --------
 **up2date** | Run this frequently to keep your system `up2date`
+
+#### Setup specific
+Script Name | Function
+----------- | --------
 **setup/freshUbuntu** | Use this script to setup a fresh Ubuntu with my installations and adjustments
 **setup/customizeUbuntu** | Script to enable my custom adjustments.
 ### Resources
