@@ -6,3 +6,4 @@ ncdu
 openssh-server
 nload
 software-properties-common
+curl
