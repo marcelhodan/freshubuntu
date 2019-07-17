@@ -5,3 +5,4 @@ open-vm-tools
 ncdu
 openssh-server
 nload
+software-properties-common
