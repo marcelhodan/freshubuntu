@@ -6,3 +6,5 @@ ncdu
 openssh-server
 nload
 net-tools
+software-properties-common
+curl
