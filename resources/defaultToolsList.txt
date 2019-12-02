@@ -2,6 +2,7 @@ git
 screen
 htop
 open-vm-tools
+qemu-guest-agent
 ncdu
 openssh-server
 nload
