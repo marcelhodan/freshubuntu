@@ -8,4 +8,6 @@ openssh-server
 nload
 net-tools
 software-properties-common
+gnome-tweaks
 curl
+
