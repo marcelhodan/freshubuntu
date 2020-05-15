@@ -10,4 +10,4 @@ net-tools
 software-properties-common
 gnome-tweaks
 curl
-
+magic-wormhole
