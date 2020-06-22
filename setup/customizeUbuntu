@@ -8,3 +8,10 @@ if [[ ! -e /etc/update-motd.d/01-serverid ]]; then
     echo "add addition information to login screen"
     cp -v $(dirname $0)/../resources/01-serverid /etc/update-motd.d/
 fi
+
+# TODO: check if Alias already set
+cat <<EOT >> $HOME/.gitconfig
+[Alias]
+    lg = log --graph --pretty=format:'%Cred%h%Creset %ad %s %C(yellow)%d%Creset %C(bold blue)<%an>%Creset' --date=short
+    hist = log --graph --full-history --all --pretty=format:'%Cred%h%Creset %ad %s %C(yellow)%d%Creset %C(bold blue)<%an>%Creset' --date=short
+EOT
